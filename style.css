@@ -1,0 +1,149 @@
+body {
+    background-color: #fdf1ec;
+}
+
+.main {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+}
+
+.product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+
+.product-text {
+    height: 250px;
+    width: 327px;
+}
+
+.product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 2px;
+    text-align: left;
+    font-size: 30px;
+    color: #474747;
+}
+
+
+
+.product-text h2 {
+    margin: 0 0 20px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.product-text p {
+    margin: 10px 0 0 38px;
+    font-family: 'Robot', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.product-price-btn {
+    display: flex;
+
+
+}
+
+.span1 {
+    display: flex;
+    color: #79b0a1;
+    height: 20px;
+    margin: 0 0 0 20px;
+    font-size: 28px;
+    font-weight: lighter;
+    display: flex;
+    height: 20px;
+    font-family: 'Robot', serif;
+    font-size: 34px;
+}
+
+
+
+.span2 {
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-decoration-line: line-through;
+    height: 20px;
+    font-family: 'Robot', serif;
+    font-size: 20px;
+}
+
+.btn-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    border: transparent;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.btn:hover {
+    background-color: #79b0a1;
+}
+
+@media only screen and (max-width:750px) {
+    .main {
+        margin-top: auto;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .product-img {
+        margin-top: 500px;
+        width: 70%;
+    }
+
+    .product-img img {
+        width: 100%;
+        border-radius: 7px 7px 0 0;
+    }
+
+    .product-info {
+        width: 70%;
+    }
+}
