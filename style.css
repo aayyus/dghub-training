@@ -1,5 +1,6 @@
 body {
     background-color: #fdf1ec;
+    height: 100vh;
 }
 
 .main {
@@ -33,7 +34,8 @@ body {
 
 .product-text {
     height: 250px;
-    width: 327px;
+    margin-right: 10px;
+    padding-right: 20px;
 }
 
 .product-text h1 {
@@ -72,11 +74,8 @@ body {
 }
 
 .span1 {
-    display: flex;
     color: #79b0a1;
-    height: 20px;
     margin: 0 0 0 20px;
-    font-size: 28px;
     font-weight: lighter;
     display: flex;
     height: 20px;
@@ -127,6 +126,12 @@ body {
 }
 
 @media only screen and (max-width:750px) {
+
+    *{
+        transition: 0.5s;
+        
+    }
+   
     .main {
         margin-top: auto;
         flex-direction: column;
