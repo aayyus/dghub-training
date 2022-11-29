@@ -26,7 +26,6 @@ body {
 }
 
 .product-img {
-    float: left;
     height: 420px;
     width: 327px;
 }
@@ -36,7 +35,6 @@ body {
 }
 
 .product-info {
-    float: left;
     height: 420px;
     width: 327px;
     border-radius: 0 7px 10px 7px;
@@ -86,9 +84,8 @@ body {
 
 .span1 {
     color: #79b0a1;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 35px;
     font-weight: lighter;
-    display: flex;
     height: 20px;
     font-family: 'Robot', serif;
     font-size: 34px;
@@ -97,7 +94,6 @@ body {
 
 
 .span2 {
-    display: flex;
     padding-left: 10px;
     margin-bottom: 20px;
     text-decoration-line: line-through;
@@ -107,7 +103,7 @@ body {
 }
 
 .btn-btn {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -138,22 +134,65 @@ body {
 
 @media only screen and (max-width:750px) {
 
-    *{
-        transition: 0.5s;
+   
         
-    }
+
    
     .main {
-        margin-top: 100px;
+        margin-top: 200px;
         flex-direction: column;
         box-shadow: none;
     }
 
     .product-img {
-        /* margin-top: 500px; */
         width: 70%;
     }
+    .product-text h1{
+        font-size: 30px;
+    }
+    .product-text h2{
+        font-size: 15px;
+    }
+    .product-img img {
+        width: 100%;
+        border-radius: 7px 7px 0 0;
+    }
 
+    .product-info {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:450px) {
+
+   
+        
+
+   
+    .main {
+        margin-top: 200px;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .product-img {
+        width: 70%;
+    }
+    .product-text h1{
+        font-size: 15px;
+        font: weight 12px;
+    }
+    .product-text h2{
+        font-size: 8px;
+    }
+    .product-price-btn{
+        position: absolute;
+        margin-top: 19px;    }
+    .span1{
+        font-size: 15px;
+    }
+    .span2{
+        font-size: 15px;
+    }
     .product-img img {
         width: 100%;
         border-radius: 7px 7px 0 0;
